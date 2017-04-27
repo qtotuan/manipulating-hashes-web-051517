@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  shopping_list = []
+  groceries.each do |key, value|
+    shopping_list << value
+  end
+  shopping_list.flatten
 end
